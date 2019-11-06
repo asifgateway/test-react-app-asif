@@ -37,6 +37,12 @@ class ProList extends Component {
           <input type="text" ref="itemName" className="form-control" placeholder="add a new todo..." />
           <button onClick={this.handleClick} type="submit" className="btn btn-primary ml-2">Add</button>
         </div>
+
+        <div className="container">
+          <h4 className="mb-3">Total count = {this.state.data.length}</h4>
+        </div>
+
+
         <table className="table table-striped table-bordered">
           <thead>
             <tr>
