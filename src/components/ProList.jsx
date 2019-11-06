@@ -35,7 +35,7 @@ class ProList extends Component {
       <div className="container">
         <div className="form-group d-flex">
           <input type="text" ref="itemName" className="form-control" placeholder="add a new todo..." />
-          <button onClick={this.handleClick} type="submit" className="btn btn-primary ml-3">Add</button>
+          <button onClick={this.handleClick} type="submit" className="btn btn-primary ml-3 add-cart-btn">Add to cart</button>
         </div>
         <table className="table table-striped table-bordered">
           <thead>
