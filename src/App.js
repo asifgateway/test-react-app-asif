@@ -1,13 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import ProList from './components/ProList.jsx';
 
-function App() {
-  return (
-    <div className="App">
-      Asif test
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <ProList/>
+    );
+  }
 }
 
 export default App;
